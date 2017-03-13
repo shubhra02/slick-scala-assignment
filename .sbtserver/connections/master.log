@@ -1,0 +1,13 @@
+New log file opened at Tue Mar 14 00:50:51 IST 2017 by 20432@knoldus
+Taking next connection to: 35608
+New client attempting to connect on port: 49626-35608
+  Address = /127.0.1.1:35608
+This client on port 49626 has uuid 478b4cba-591c-4ce9-b37e-ae64a4bbe8b0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-478b4cba-591c-4ce9-b37e-ae64a4bbe8b0
+Taking next connection to: 35608
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 20432@knoldus logs at Tue Mar 14 00:53:52 IST 2017, goodbye.

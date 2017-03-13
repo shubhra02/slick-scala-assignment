@@ -1,0 +1,247 @@
+New log file opened at Tue Mar 14 00:50:21 IST 2017 by 20170@knoldus
+jvm 20170@knoldus
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.121-b13
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/knoldus/scala-slick
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/knoldus/scala-slick/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/knoldus/scala-slick/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/knoldus/scala-slick/project, returning: (scala-slick-build)
+Loading project definition from /home/knoldus/scala-slick/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2876c333, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/knoldus/scala-slick
+[Loading] Found non-root projects 
+[Loading] Done in /home/knoldus/scala-slick, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/knoldus/scala-slick, returning: (scala-slick)
+Set current project to scala-slick (in build file:/home/knoldus/scala-slick/)
+Reapplying settings...
+Set current project to scala-slick (in build file:/home/knoldus/scala-slick/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/home/knoldus/scala-slick/}scala-slick/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@60059186, check cycles: false
+
+Initial source changes: 
+	removed:Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala)
+	added: Set(/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/PostgresDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/MySqlDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeOperations.scala, /home/knoldus/scala-slick/src/main/scala/com/example/DBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectObj.scala)
+	modified: Set()
+Removed products: Set(/home/knoldus/scala-slick/target/scala-2.11/classes/com/example/Hello$.class, /home/knoldus/scala-slick/target/scala-2.11/classes/com/example/Hello.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/PostgresDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/MySqlDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeOperations.scala, /home/knoldus/scala-slick/src/main/scala/com/example/DBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectObj.scala)
+
+Sources indirectly invalidated by:
+	product: Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/PostgresDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/MySqlDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeOperations.scala, /home/knoldus/scala-slick/src/main/scala/com/example/DBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectObj.scala)
+
+Recompiling all 7 sources: invalidated sources (8) exceeded 50.0% of all sources
+Read from stdout: Compiling 7 Scala sources to /home/knoldus/scala-slick/target/scala-2.11/classes...
+Compiling 7 Scala sources to /home/knoldus/scala-slick/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 359b3f30, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/knoldus/Application/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar
+	-classpath
+	/home/knoldus/scala-slick/target/scala-2.11/classes:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.2.0.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.11/bundles/slick-hikaricp_2.11-3.2.0.jar:/home/knoldus/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/knoldus/.ivy2/cache/org.postgresql/postgresql/bundles/postgresql-9.4.1212.jar
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: not found: type ConnectedDbMysql
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: not found: type ConnectedDbMysql
+Read from stdout: this: ConnectedDbMysql   //object of db to hit query to db
+  this: ConnectedDbMysql   //object of db to hit query to db
+Read from stdout: ^
+        ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+Read from stdout: this: ConnectedDbMysql   //object of db to hit query to db
+  this: ConnectedDbMysql   //object of db to hit query to db
+Read from stdout: ^
+      ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:33: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:33: not found: value db
+Read from stdout: def create = db.run(projectQuery.schema.create)
+  def create = db.run(projectQuery.schema.create)
+Read from stdout: ^
+               ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:34: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:34: not found: value db
+Read from stdout: def insert(pro: Project) = db.run {
+  def insert(pro: Project) = db.run {
+Read from stdout: ^
+                             ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:40: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:40: not found: value db
+Read from stdout: db.run(delQuery)
+    db.run(delQuery)
+Read from stdout: ^
+    ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:43: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:43: not found: value db
+Read from stdout: def update(pId: Int, name: String) = db.run{
+  def update(pId: Int, name: String) = db.run{
+Read from stdout: ^
+                                       ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:46: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:46: not found: value db
+Read from stdout: db.run(res)
+    db.run(res)
+Read from stdout: ^
+    ^
+Read from stdout: one warning found
+one warning found
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 7 s, completed 14 Mar, 2017 12:50:43 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/knoldus/scala-slick/}scala-slick/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@4587a07b, check cycles: false
+
+Initial source changes: 
+	removed:Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala)
+	added: Set(/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/PostgresDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/MySqlDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeOperations.scala, /home/knoldus/scala-slick/src/main/scala/com/example/DBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectObj.scala)
+	modified: Set()
+Removed products: Set(/home/knoldus/scala-slick/target/scala-2.11/classes/com/example/Hello$.class, /home/knoldus/scala-slick/target/scala-2.11/classes/com/example/Hello.class)
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/PostgresDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/MySqlDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeOperations.scala, /home/knoldus/scala-slick/src/main/scala/com/example/DBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectObj.scala)
+
+Sources indirectly invalidated by:
+	product: Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala)
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/home/knoldus/scala-slick/src/main/scala/com/example/Hello.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/PostgresDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeTable.scala, /home/knoldus/scala-slick/src/main/scala/com/example/MySqlDBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/EmployeeOperations.scala, /home/knoldus/scala-slick/src/main/scala/com/example/DBComponent.scala, /home/knoldus/scala-slick/src/main/scala/com/example/ProjectObj.scala)
+
+Recompiling all 7 sources: invalidated sources (8) exceeded 50.0% of all sources
+Read from stdout: Compiling 7 Scala sources to /home/knoldus/scala-slick/target/scala-2.11/classes...
+Compiling 7 Scala sources to /home/knoldus/scala-slick/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 7afa78b6, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/knoldus/Application/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar
+	-classpath
+	/home/knoldus/scala-slick/target/scala-2.11/classes:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.2.0.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.11/bundles/slick-hikaricp_2.11-3.2.0.jar:/home/knoldus/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/home/knoldus/.ivy2/cache/org.postgresql/postgresql/bundles/postgresql-9.4.1212.jar
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: not found: type ConnectedDbMysql
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: not found: type ConnectedDbMysql
+Read from stdout: this: ConnectedDbMysql   //object of db to hit query to db
+  this: ConnectedDbMysql   //object of db to hit query to db
+Read from stdout: ^
+        ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:31: a pure expression does nothing in statement position; you may be omitting necessary parentheses
+Read from stdout: this: ConnectedDbMysql   //object of db to hit query to db
+  this: ConnectedDbMysql   //object of db to hit query to db
+Read from stdout: ^
+      ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:33: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:33: not found: value db
+Read from stdout: def create = db.run(projectQuery.schema.create)
+  def create = db.run(projectQuery.schema.create)
+Read from stdout: ^
+               ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:34: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:34: not found: value db
+Read from stdout: def insert(pro: Project) = db.run {
+  def insert(pro: Project) = db.run {
+Read from stdout: ^
+                             ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:40: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:40: not found: value db
+Read from stdout: db.run(delQuery)
+    db.run(delQuery)
+Read from stdout: ^
+    ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:43: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:43: not found: value db
+Read from stdout: def update(pId: Int, name: String) = db.run{
+  def update(pId: Int, name: String) = db.run{
+Read from stdout: ^
+                                       ^
+Read from stdout: /home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:46: not found: value db
+/home/knoldus/scala-slick/src/main/scala/com/example/ProjectTable.scala:46: not found: value db
+Read from stdout: db.run(res)
+    db.run(res)
+Read from stdout: ^
+    ^
+Read from stdout: one warning found
+one warning found
+Read from stdout: 6 errors found
+6 errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed 14 Mar, 2017 12:50:46 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 20170@knoldus logs at Tue Mar 14 00:50:46 IST 2017, goodbye.
