@@ -13,5 +13,6 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick" % "3.2.0",
   "com.typesafe.slick" %% "slick-hikaricp" % "3.2.0",   //hikaricp = io threadpool
-  "org.postgresql" % "postgresql" % "9.4.1212"
+  "org.postgresql" % "postgresql" % "9.4.1212",
+  "mysql" % "mysql-connector-java" % "5.1.34"
 )
